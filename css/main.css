@@ -10,18 +10,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-body > header, 
-body > main {
+body > header {
     display: inline-block;
     width: 100%;
     margin-top: 20px;
-}
-    
-img {
-    float: left;
-    height: 15px;
-    margin-left: 50px;
-    margin-top: 13px;
 }
 
 nav {
@@ -29,9 +21,18 @@ nav {
     margin-right: 50px;
     margin-top: 10px;
     position: sticky;
+    top: 0;
 }
 
-a{
+img {
+    float: left;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+nav > a{
     display: inline-block;
     font-size: 12px;
     padding-bottom: 10px;
@@ -43,4 +44,9 @@ a{
 
 nav > a:hover {
     border-bottom: 2px solid black;
+}
+
+main > img {
+    background-image: url(/img/background-image.png);
+    height: 1000px;
 }
