@@ -52,7 +52,6 @@ nav > a:hover {
 body > main {
     margin-top: 0px;
     height: 776px;
-    background-color: bisque;
     background-image: url(../img/background-image.png);
     background-size: cover;
     background-position: center;
@@ -98,7 +97,6 @@ footer > .models {
 .models > .suits {
     width: 30%;
     height: 700px;
-    background-color: bisque;
     background-image: url(../img/suits.png);
     background-size: cover;
     margin-left: 65px;
@@ -107,7 +105,6 @@ footer > .models {
 .models > .knitwear {
     width: 30%;
     height: 700px;
-    background-color: bisque;
     background-image: url(../img/knitwear.png);
     background-size: cover;
     margin-left: 25px;
@@ -116,7 +113,6 @@ footer > .models {
 .models > .coats {
     width: 30%;
     height: 700px;
-    background-color: bisque;
     background-image: url(../img/coats.png);
     background-size: cover;
     margin-left: 25px;
