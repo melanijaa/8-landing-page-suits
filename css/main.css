@@ -17,15 +17,22 @@ body > footer {
     width: 100%;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
 header > img {
     float: left;
-    padding: 17px;
+    padding: 20px;
 }
 
 header > nav {
     float: right;
     margin-right: 25px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 nav > a{
@@ -44,7 +51,7 @@ nav > a:hover {
 
 body > main {
     margin-top: 0px;
-    height: 770px;
+    height: 776px;
     background-color: bisque;
     background-image: url(../img/background-image.png);
     background-size: cover;
@@ -57,16 +64,16 @@ main > h1 {
     font-size: 45px;
     text-align: center;
     position: absolute;
-    left: 510px;
-    top: 490px;
+    left: 590px;
+    top: 540px;
     letter-spacing: 3px;
     line-height: 1;
 }
 
 main > a {
     position: absolute;
-    left: 700px;
-    top: 605px;
+    left: 775px;
+    top: 665px;
     border: solid 1px #fff;
     text-decoration: none;
     color: white;
