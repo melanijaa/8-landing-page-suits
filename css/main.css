@@ -1,9 +1,8 @@
 body > header,
 body > main,
-body > footer {
+body > article {
     display: inline-block;
     width: 100%;
-    position: relative;
 }
 
 header {
@@ -72,11 +71,11 @@ main > a {
     font-stretch:extra-condensed;
 }
 
-footer > .models {
+article > .models {
     display: flex;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .models > .suits {
@@ -138,3 +137,23 @@ footer > .models {
     font-size: 25px;
     text-shadow: -1px -1px rgb(211, 209, 209);
 }
+
+
+.textover {
+    position: relative;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.textover > a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
